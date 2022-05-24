@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -webkit-pictograph;
+
+}
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    top: 0px;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+}
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 11px;
+}
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+/* Navigation Bar: List Styling */
+#navbar ul {
+    display: flex;
+    margin-left: 29.8rem;
+    margin-top: 0.5rem;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.28rem;
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    margin-bottom: 2rem;
+    margin-right: -2px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: rgb(255, 0, 0);
+ 
+}
+#navbar ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -28px -5px;
+}
+#navbar ul li img:hover {
+    box-shadow: 0px 0px 6px 5px rgb(245 239 239 / 92%);
+}
+
+/* Header part */
+
+header::before {
+    content: "";
+    background-image: url(../image/Exercise\ Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 36rem;
+    width: 88.7rem;
+    z-index: -1;
+}
+header:hover {
+     opacity: 0.8;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+#header h1{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    letter-spacing: 6px;
+}
+
+/* Section Part  */
+
+section{
+    font-size: 3.5rem;
+    color: rgb(255 0 0);
+    text-align: center;
+    margin-top: 18rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* container part  */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+}
+.box{
+    /* border: 1px solid #ffffff; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 30rem;
+    width: 40rem;
+    margin: 11rem 2rem 11rem 2rem;
+    background-repeat: no-repeat;
+    background-repeat: round;
+    /* opacity: 0.6;   */
+
+}
+.box:hover{
+    box-shadow: 0px 0px 10px 10px rgb(114 112 112 / 92%);
+    transform: scale(1.05);
+    opacity: 0.7;  
+    
+}
+.box pre{
+    font-size: 2.7rem;
+    text-align: center;
+    border-bottom: 4px solid red;
+    font-weight: bold;
+    line-height: 5rem;
+    margin-top: 37rem;
+    margin-left: -10rem;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+ 
+#box1{
+    background-image: url(../image/Body\ Building\ part1.jpg);
+    
+ }
+#box2{
+    background-image: url(../image/Home\ Workout\ Part1.jpg);
+    
+ }
+#box3{
+    background-image: url(../image/Weight\ Gain\ Part1.jpg);
+    
+ }
+#box4{
+    background-image: url(../image/Mass\ Gain\ Part1.jpg);
+    
+ }
+#box5{
+    background-image: url(../image/Weight\ Lifting\ Part1.jpg);
+    
+ }
+#box6{
+    background-image: url(../image/Power\ Llifting\ Part\ 1.jpg);
+    
+ }
+.firstpara{
+    font-size: 1.8rem;
+    margin: 6px 0px 0px 10px;
+     
+}
+.seccondppara{
+    font-size: 1rem;
+    margin: 0px 0px 0px 29px;
+}
+.logo{
+    margin-left: -9rem;
+}
+.logo img{
+    width: 4rem;
+    margin: 15px 0px 0px 80px;
+}
+
+
+
+/* More Button Part  */
+
+.more button{
+    width: 16rem;
+    height: 4.5rem;
+    color: white;
+    margin: 40px;
+    background-color: red;
+    border: 5px solid rgb(255, 254, 254);
+    font-size: 2rem;
+}
+.more button:hover {
+    background-color: rgb(243, 49, 49);
+    font-size: 2.3rem;
+}
+ 

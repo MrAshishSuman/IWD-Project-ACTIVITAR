@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -webkit-pictograph;
+}
+
+/* Body Part  */
+
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+}
+
+
+/* Navigation Bar */
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    top: 0px;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+}
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 11px;
+}
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+/* Navigation Bar: List Styling */
+#navbar ul {
+    display: flex;
+    margin-left: 29.8rem;
+    margin-top: 0.5rem;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.28rem;
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    margin-bottom: 2rem;
+    margin-right: -2px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: rgb(255, 0, 0);
+ 
+}
+#navbar ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -28px -5px;
+}
+#navbar ul li img:hover {
+    box-shadow: 0px 0px 6px 5px rgb(245 239 239 / 92%);
+}
+
+
+/* Header part */
+
+header::before {
+    content: "";
+    background-image: url(../image/Monday\ Exercise\ Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 36rem;
+    width: 88.7rem;
+    z-index: -1;
+}
+header:hover {
+     opacity: 0.8;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+#header h1{
+    font-size: 4.5rem;
+    margin-top: 21rem;
+    letter-spacing: 0px;
+}
+
+/* container part  */
+
+.container{
+    border: 4px solid rgb(132 123 123);
+    border-radius: 33px;
+    background-color: #1a1919;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 94%;
+    height: 43rem;
+    padding: 25px;
+    margin-top: 8rem;
+    margin-left: 16px;
+}
+
+/* Box 1 */
+
+#box1{
+    background-color: #181515;
+    height: 43rem;
+    width: 32rem;
+    margin: 4px 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+.video{
+    width: 21.4rem;
+    height: 38rem;
+    margin-left: 5rem;
+    margin-top: 12px;
+
+}
+.video:hover{
+    box-shadow: 0px 0px 6px 5px rgb(245 239 239 / 92%);
+}
+video{
+    width: 341px;
+}
+.button{
+    border: 3px solid rgb(255, 255, 255);
+    margin-left: 13rem;
+    margin-top: 16px;
+    background-color: red;
+    width: 84px;
+    height: 32px;
+}
+button{
+    background-color: red;
+    border: 2px solid red;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 6px 6px 4px;
+}
+
+/* Box 2  */
+
+#box2{
+    background-color: #181515;
+    width: 26rem;
+    height: 42.7rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.name_exercise{
+    /* border: 2px solid red; */
+    width: 24rem;
+    height: 7rem;
+    margin: 11px;
+    margin-top: 5rem;
+}
+.name_exercise h2{
+    font-size: 44px;
+    color: red;
+    text-align: center;
+    margin-top: 32px;
+    border-bottom: 3px solid white;
+    letter-spacing: 3px;
+    line-height: 78px;
+}
+.infobox{
+    margin: 8rem 10px 10px;
+}
+.info{
+    width: 24rem;
+    margin: 6px;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* Box 3 */
+
+#box3{
+    background-color: #181515;
+    width: 21rem;
+    height: 42.7rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.body_part{
+    height: 4rem;
+    width: 20rem;
+    font-size: 22px;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.description{
+    /* border: 2px solid #181515; */
+    height: 30rem;
+    width: 21rem;
+    padding: 7px;
+    margin-top: 6rem;
+}
+.description h2{
+    text-align: center;
+    font-size: 31px;
+    color: red;
+    letter-spacing: 3px;
+    margin-bottom: 31px;
+}
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -webkit-pictograph;
+}
+
+/* Body Part  */
+
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+}
+
+
+/* Navigation Bar */
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    top: 0px;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+}
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 11px;
+}
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+/* Navigation Bar: List Styling */
+#navbar ul {
+    display: flex;
+    margin-left: 29.8rem;
+    margin-top: 0.5rem;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.28rem;
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    margin-bottom: 2rem;
+    margin-right: -2px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: rgb(255, 0, 0);
+ 
+}
+#navbar ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -28px -5px;
+}
+#navbar ul li img:hover {
+    box-shadow: 0px 0px 6px 5px rgb(245 239 239 / 92%);
+}
+
+
+/* Header part */
+
+header::before {
+    content: "";
+    background-image: url(../image/Body\ Building\ Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 36rem;
+    width: 88.7rem;
+    z-index: -1;
+}
+header:hover {
+     opacity: 0.8;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+#header h1{
+    font-size: 4.8rem;
+    margin-top: 6rem;
+    letter-spacing: 6px;
+}
+
+/* container part  */
+
+.container{
+    border: 10px solid #999393;
+    background-color: #1e1c1c;
+    border-radius: 12%;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 27rem;
+    margin-bottom: 11rem;
+    margin-right: 1rem;
+    margin: 15rem 3rem 11rem 2rem;
+     
+}
+
+
+/* Image Container  */
+
+
+.imgcontainer{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 24px;
+}
+.heading{
+    font-size: 32px;
+    padding: 17px;
+    padding-left: 132px;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+.image{
+    height: 39rem;
+    width: 36rem;
+    margin: 5rem 7rem;
+    margin-bottom: 0px;
+}
+.image a img:hover{
+    box-shadow: 0px 0px 10px 7px rgb(245 239 239 / 92%)
+}
+.image img:hover{
+    transform: scale(1.1);
+}
+.image img{
+    height: 619px;
+    width: 563px;
+}
+.duration{
+    padding: 38px;
+    width: 11rem;
+    margin-left: 16rem;
+ }
+.weeks{
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+}
+.days{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+
+/* Schedule Container  */
+
+
+.schedule{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.heading2{
+    letter-spacing: 4px;
+    margin: 4rem auto;
+    font-size: 4rem;
+    font-size: 3.7rem;
+}
+.name{
+    border: 1px solid #ab1414;
+    width: 25rem;
+    border-radius: 50px;
+    background-color: #464343;
+    margin: 24px auto;
+    height: 4rem;
+}
+.name_week{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 6px 114px;
+}
+.name:hover{
+    box-shadow: 0px 0px 15px 3px rgb(245 239 239 / 92%);
+    background-color: #8b8585;
+    border: 2px solid white;
+}
+
+
+/* More Button Part  */
+
+
+.more button{
+    width: 16rem;
+    height: 4.5rem;
+    color: white;
+    margin-left: 36rem;
+    margin-bottom: 8rem;
+    background-color: red;
+    border: 5px solid rgb(255, 254, 254);
+    font-size: 2rem;
+}
+.more button:hover {
+    background-color: rgb(243, 49, 49);
+    font-size: 2.3rem;
+}
+ 
+
+ 
+
+
+
+
+
+ 

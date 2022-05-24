@@ -1,0 +1,68 @@
+body {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    background-color: #070603;
+
+}
+
+section::before {
+    content: "";
+    background-image: url("../image/Rest\ Day\ Background.jpg");
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 41rem;
+    height: 47rem;
+    margin-left: 48rem;
+    margin-top: 2rem;
+
+}
+.heading h1{
+    width: 372px;
+    font-size: 4.5rem;
+    border-bottom: 5px solid red;
+    letter-spacing: 8px;
+    margin: 0rem 1rem 3rem 9rem;
+} 
+.heading h3{
+    width: 34rem;
+    font-size: 2.4rem;
+    letter-spacing: 6px;
+    margin: 19rem 1rem 1rem 6rem;
+}
+
+.para{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    line-height: 37px;
+}
+
+.button button {
+    background-color: red;
+    color: white;
+    width: 7rem;
+    height: 3.4rem;
+    font-size: 22px;
+    font-weight: bold;
+    border: 3px solid white;
+    margin: 3rem 0rem 0rem 18rem;
+}
+.button button:hover {
+    background-color: rgb(238, 61, 61);
+    border: 2px soli white;
+    font-size: 25px;
+    
+    
+}

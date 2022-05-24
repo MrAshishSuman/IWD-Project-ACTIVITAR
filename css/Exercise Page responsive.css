@@ -1,0 +1,63 @@
+/* navigationbar */
+#navbar{
+    flex-direction: column;
+}
+#logo img {
+     margin-left: 60rem;
+     height: 5rem;
+ }
+ #navbar ul {
+    margin-top: -1.5rem;
+}  
+ #navbar ul {
+     margin-left: 58.8rem;
+     margin-top: -0.5rem;
+}
+
+/* Header Part  */
+
+#header h1{
+    margin-left: 28rem;
+    margin-top: 15rem;
+     font-size: 5rem;
+}
+header::before{
+    top: 200px;
+}
+
+/* Container Part  */
+
+section {
+    height: 6rem;
+    width: 35rem;
+    font-size: 4rem;
+    margin-left: 25rem;
+    margin-top: 16rem;
+}
+.container{
+    width: 88rem;
+    height: 300rem;
+}
+.box{
+    width: 60rem;
+    height: 40rem;
+}
+.box pre{
+    margin-top: 48rem;
+    margin-left: -30rem;
+}
+.more{
+    
+    width: 35rem;
+    font-size: 4rem;
+    margin-left: 26rem;
+    margin-top: 90rem;
+    margin-bottom: 20rem;
+}
+
+
+ 
+/*  Footer Part */
+footer {
+    width: 88.7rem;
+}

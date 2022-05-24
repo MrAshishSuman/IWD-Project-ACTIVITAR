@@ -1,0 +1,392 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Body Part  */
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+}
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    top: 0px;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.7; */
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 11px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    margin-left: 29.8rem;
+    margin-top: 0.5rem;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.28rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: rgb(255, 0, 0);
+ 
+}
+#navbar ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -15px -5px;
+}
+#navbar ul li img:hover {
+    box-shadow: 0px 0px 6px 5px rgb(245 239 239 / 92%);
+}
+
+
+ 
+ 
+/* Dialouge Paragraph  */
+.dialogue p {
+    display: inline-block;
+    position: absolute;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 58px;
+    text-align: top;
+    margin-top: -697px;
+    margin-left: 73px;
+}
+/* Dialouge Button (Know More) */
+.dialogue button {
+    position: absolute;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    width: 120px;
+    height: 39px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: -509px;
+    margin-left: 77px;
+}
+.dialogue button:hover {
+    background-color: rgb(245, 63, 63);
+    font-size: 15px;
+}
+/* Our Service Part  */
+.our-service {
+    height: 1040px;
+    background-image: url("image\service background.jpg");
+    background-color: rgb(0, 0, 0);
+}
+.heading-of-service {
+    text-align: center;
+    margin-top: 10px;
+}
+.heading-of-service h3 {
+    font-size: 2.5em;
+    margin-top: 5rem;
+   
+}
+.heading-of-service p {
+    margin-bottom: 2px;
+    font-size: 27px;
+    margin-top: 82px;
+}
+
+
+/* Box of Our service  */
+.imgcontainer {
+     display: flex;
+     flex-flow: wrap;
+    margin: 60px;
+}
+.box {
+    display: inline-block;
+    width: 285px;
+    height: 329px;
+    margin: 64px;
+    margin-left: 84px;
+}
+.box img {
+    height: 356px;
+    width: 280px;
+}
+.box a img:hover {
+    box-shadow: 0px 0px 10px 7px rgba(245, 239, 239, 0.918);
+   
+}
+.box p {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.box p:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+
+/* Image container button (NEXT)  */
+.button button{
+    position: relative;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    width: 114px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0rem 40rem;
+}
+.button button:hover {
+    background-color: rgb(245, 63, 63);
+    font-size: 18px;
+}
+
+
+/* About Us  */
+.aboutus {
+    display: inline-block;
+    margin-top: 170px;
+}
+.aboutus img {
+    width: 470px;
+    height: 651px;
+    margin-left: 116px;
+    margin-top: 200px;
+}
+
+/* Heading of about us contains  p (Benifit Of Gym)  */
+.heading-of-about-us {
+    text-align: center;
+    margin-top: 10px;
+}
+.heading-of-about-us p {
+    margin-bottom: 2px;
+    font-size: 27px;
+    margin-top: 82px;
+}
+/* ---------------  */
+.para-about-us {
+    position: absolute;
+    width: 789px;
+    height: 500px;
+    margin-left: 610px;
+    margin-top: -637px;
+}
+.para-about-us h4 {
+    text-align: center;
+    color: red;
+    font-size: 2.8rem;
+     margin-top: -7rem;
+    margin-bottom: 6rem;
+    padding: 18px;
+}
+.para-about-us h2 {
+    font-size: 31px;
+    padding: 43px;
+    padding-left: 0px;
+    letter-spacing: 2px;
+    line-height: 39px;
+}
+.para-about-us p {
+    font-size: 18px;
+    font-style: italic;
+    padding: -1px;
+    margin-top: 52px;
+    padding-left: 0px;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+.para-about-us-button {
+    position: absolute;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    font-weight: bold;
+    width: 140px;
+    font-size: 14px;
+    padding: 18px;
+    text-align: center;
+    margin-top:90px;
+}
+.para-about-us-button:hover {
+    background-color: rgb(245, 63, 63);
+    font-size: 14px;
+}
+
+
+/* GALLERY */
+.gallery-heading h3{
+    text-align: center;
+    color: red;
+    font-size: 2.8rem;
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+    padding: 18px;
+}
+/* Box of gallery */
+.gallery{
+    display: inline-block;
+    width: 422px;
+    height: 267px;
+    margin: 42px 21px 26px 25px;
+}
+.gallery img {
+    height: 268px;
+    width: 380px;
+}
+.gallery img:hover{
+    box-shadow: 0px 0px 10px 10px rgba(114, 112, 112, 0.918);
+    transform: scale(1.1);
+}
+.gallery-container button{
+    position: absolute;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    width: 120px;
+    height: 39px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-left: 646px;
+}
+.gallery-container button:hover{
+    background-color: rgb(245, 63, 63);
+    font-size: 15px;
+}
+
+
+/* Feedback  */
+.heading-contact-us h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 17rem;
+    padding-bottom:  4rem;
+    margin-bottom: 0px;
+}
+/* Social Media  */
+.social-media-container{
+    margin-top: -7px;
+    margin-left: 996px;
+}
+.social-media{
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.social-media li{
+    display: inline-block;
+    text-align: center;
+}
+.social-media li a img{
+    border-radius: 36%;
+    height: 31px;
+    width: 40px;
+    margin: 23px;
+}
+.social-media li a img:hover{
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.9);
+    transform: scale(1.5);
+}
+.contact-img img{
+    width: 628px;
+    float: left;
+    margin-top: -21px;
+    height: 605px;
+    margin-left: 45px;
+    padding: 12px;
+}
+.contact-img p{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 720px;
+    margin-top: -20px;
+}
+/* Feedback Form  */
+#Feedback-form {
+    display: inline-block;
+    position: absolute;
+    margin-top: 57px;
+}
+#Feedback-form input,select{
+    width: 330px;
+    padding: 11px;
+    margin: 18px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+option{
+    color: black;
+    background-color: #ffffff;
+}
+
+#message{
+    width: 660px;
+    height: 180px;
+    margin-left: 18px;
+    margin-top: 7px;
+    border-radius: 27px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid white;
+    padding: 10px;
+}
+/* Hover effect selected by previous Css througt common selector  */
+#Feedback-form button{
+    margin-left: -160px;
+    margin-top: 240px;
+    width: 150px;
+}
+
+/* Footer Part  */
+footer {
+    margin-top: 65rem;
+}
+
+ 

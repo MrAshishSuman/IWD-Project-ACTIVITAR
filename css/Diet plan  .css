@@ -1,0 +1,130 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("../image/Diet\ plan.jpg");
+    color: white;
+     
+     
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    top: 0px;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 12%;
+    width: 100%;
+    z-index: -1;
+}
+#logo {
+    margin: 10px 11px;
+}
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+#navbar ul {
+    display: flex;
+    margin-left: 20.8rem;
+    margin-top: 0.5rem;
+    background-color: black;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.28rem;
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    border: 2px solid black;
+    padding: 10px 30px;
+    margin-bottom: 2rem;
+    margin-right: -2px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: rgb(255, 0, 0);
+ 
+}
+#navbar ul li img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -29px 14px;
+}
+#navbar ul li img:hover {
+    box-shadow: 0px 0px 6px 5px rgb(245 239 239 / 92%);
+}
+
+
+/* Content Part  */
+
+
+h1{
+    background-color: #ff0000;
+    border: 5px solid #ededed;
+    width: 42rem;
+    height: 10rem;
+    padding-top: 43px;
+    font-size: 74px;
+    text-align: center;
+    margin: 7rem 0rem 6rem 25rem;
+}
+h1:hover{
+   
+    font-size: 76px;
+    border: 5px solid #fff4f4;
+    background-color: #d72323;
+}
+h2{
+    background-color: red;
+    font-size: 55px;
+    height: 6rem;
+    margin-top: 4rem;
+    width: 253px;
+    margin-left: 39rem;
+    border: 4px solid white;
+    text-align: center;
+    padding-top: 19px;
+}
+h2:hover{
+    background-color: rgb(168, 22, 22);
+    font-size: 60px;
+    border: 5px solid rgb(194, 184, 184);
+}
+h3{
+    background-color: #2a2826;
+    font-size: 29px;
+    border-radius: 68px;
+    border: 4px solid white;
+    width: 22rem;
+    height: 3.5rem;
+    text-align: center;
+    margin-left: 6rem;
+    padding-top: 15px;
+}
+p{
+    background-color: black;
+    font-size: 23px;
+    line-height: 37px;
+    height: 11rem;
+    width: 49rem;
+    letter-spacing: 1px;
+    padding: 16px 0px 0px 27px;
+    margin: 12px 0px 10px 85px;
+    border-radius: 47px;
+    border: 4px solid white;
+}
+a{
+    border-style: double;
+}
+
+ 

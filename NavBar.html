@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito Sans", sans-serif;
+
+        }
+
+        /* Navigation Bar */
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 83%;
+            width: 100%;
+            z-index: -1;
+            /* opacity: 0.7; */
+        }
+
+        /* Navigation Bar: Logo and Image */
+        #logo {
+            margin: 10px 34px;
+        }
+
+        #logo img {
+            height: 59px;
+            margin: 3px 6px;
+        }
+
+
+        /* Navigation Bar: List Styling */
+
+        #navbar ul {
+            display: flex;
+            margin-left: 24.8rem;
+            margin-top: 0.5rem;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.28rem;
+        }
+
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            color: rgb(255, 0, 0);
+            font-size: 1.40rem;
+
+        }
+
+        #navbar ul li a button {
+            border: 2px solid red;
+            background-color: red;
+            color: white;
+            width: 91px;
+            height: 40px;
+            font-weight: bold;
+            font-size: 1.3rem;
+
+        }
+
+        #navbar ul li a button:hover {
+            background-color: rgb(248, 56, 56);
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="image/Logo.JPG" alt="Ativitar">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#services-container">ABOUT</a></li>
+            <li class="item"><a href="#client-section">SERVICES</a></li>
+            <li class="item"><a href="#contact">GALLERY</a></li>
+            <li class="item"><a href="#contact">BLOG</a></li>
+            <li class="item"><a href="#contact"><button>Join Us</button></a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>

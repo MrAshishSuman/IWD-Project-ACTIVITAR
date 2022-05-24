@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITAR-FORGOT PASSWORD</title>
+    <link rel="shortcut icon" href="image\Favicon.png" type="image/x-icon">
+    <style>
+        * {
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        body {
+            padding: 0px;
+            margin: 0px;
+            color: white
+        }
+
+        header::before {
+            content: "";
+            background-image: url("image/forgot-password.jpg");
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 57vh;
+            width: 61vw;
+            border-radius: 35px;
+            margin: 172px auto;
+            background-color: rgb(21 21 21);
+            box-shadow: 0px 0px 14px 10px rgb(94 94 94 / 92%)
+        }
+
+        .Welcome h2 {
+            position: absolute;
+            margin-left: 300px;
+            font-size: 30px;
+            letter-spacing: 2px;
+            font-weight: revert;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-self: center;
+            margin-top: 45px;
+            margin-left: -17px;
+            height: 38vh;
+            width: 37vw;
+        }
+
+        .info img {
+            height: 49px;
+            width: 191px;
+            margin: 30px;
+        }
+
+        .form {
+            height: 50vh;
+            width: 27vw;
+
+        }
+
+        .form p {
+            margin-left: 8rem;
+            margin-top: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: red;
+        }
+
+        .form input {
+            width: 277px;
+            height: 19px;
+            border-radius: 22px;
+            border: 2px solid white;
+            font-size: 14px;
+            margin: 10px;
+            font-weight: bold;
+            color: black;
+            padding: 9px;
+
+        }
+
+        .form a {
+            display: inline-block;
+            color: red;
+            text-decoration: none;
+            margin-left: 15px;
+            margin-top: 10px;
+            width: 180px;
+        }
+
+        .form button {
+            position: absolute;
+            border: 2px solid red;
+            background-color: red;
+            color: white;
+            width: 92px;
+            height: 39px;
+            font-weight: bold;
+            margin-left: 100px;
+            margin-top: 15px;
+            border-radius: 17px;
+        }
+
+        .form button:hover {
+            background-color: rgb(248, 56, 56);
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="Welcome">
+            <h2>Welcome To Our Website</h2>
+        </div>
+        <div class="container">
+            <div class="info">
+                <img src="image/login-container1.jpg" alt="Image-info">
+                <img src="image/login-container2.jpg" alt="Image-info">
+                <img src="image/login-container3.jpg" alt="Image-info">
+                <img src="image/login-container4.jpg" alt="Image-info">
+                <img src="image/login-container5.jpg" alt="Image-info">
+                <img src="image/login-container6.jpg" alt="Image-info">
+            </div>
+            <div class="form">
+                <p>OTP</p>
+                <input type="number" placeholder="OTP (Phone No.)"> <br>
+                <h5 style="    margin: 0.5rem 1rem;
+                color: red;
+                font-size: 1rem;">Optional*</h5>
+                <input type="number" placeholder="CODE ( Email)"> <br>
+                <a href="create new account.html">Create New Account ?</a>
+                <a href="Home Page After Login.html"><button> SUBMIT</button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+</body>
+
+</html>
